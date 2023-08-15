@@ -1,6 +1,7 @@
 from mongoengine import Document
 from mongoengine.fields import ListField, StringField, ReferenceField
 
+#models, for creating collections in mongoDB
 class Authors(Document):
     fullname = StringField()
     born_date = StringField()
